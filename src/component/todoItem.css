@@ -1,0 +1,26 @@
+p{
+    margin: 0;
+}
+.todoItem {
+    background-color: antiquewhite;
+    font-size: 24px;
+    border-bottom: solid 1px;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.todoItem p {
+    margin-left: 20px; 
+ 
+}
+
+.todoItem img {
+   width: 32px;
+   height: 32px;
+
+}
+
+.complete {
+    text-decoration: line-through;
+    color: rebeccapurple;
+}
