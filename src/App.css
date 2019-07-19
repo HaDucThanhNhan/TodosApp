@@ -1,25 +1,63 @@
 .App {
-  border: solid;
-  width: 50%;
+  border: solid #87888b;
+  width: 60%;
   margin: 10% auto;
 }
+
 .header {
   display: flex;
   font-size: 24px;
-  border-bottom: solid;
+  border-bottom: solid 0.5px #87888b;
   padding: 10px 20px;
 }
-.input{
+
+.header img {
+  width: 32px;
+  height: 32px;
+}
+
+.input {
   margin: 0;
 }
-.header input{
+
+.header input {
   width: 80%;
   font-size: 24px;
   margin-left: 20px;
   border: none;
 }
-.header input:focus{
+
+.header input:focus {
   outline: none;
 }
 
+.footer {
+  display: flex;
+  height: 30px;
+  flex-direction: row;
+  padding: 10px 20px;
+}
 
+.footer .btn {
+  
+  margin: 0 auto;
+ 
+}
+
+.footer button {  
+  padding: 5px;
+  margin-right: 10px;
+  background-color: white;
+  border: none;
+}
+
+.footer button:hover {
+  background-color: aliceblue;
+  border: solid 0.3px rgb(153, 146, 146);
+  cursor: pointer;
+}
+.footer button:active {
+  background-color: aliceblue;
+  border: solid 0.3px rgb(153, 146, 146);
+  cursor: pointer;
+}
